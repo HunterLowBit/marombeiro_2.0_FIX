@@ -4,7 +4,6 @@ const authRoutes = require("./routes/authRoutes");
 const userRoutes = require("./routes/userRoutes");
 const checkToken = require("./middleware/checkToken");
 
-
 const app = express();
 
 app.use(express.json());
